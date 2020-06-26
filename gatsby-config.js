@@ -1,8 +1,11 @@
+// Note to John: This gatsby-config file is often used to bring in useful plugins,
+//    and in this case it's also exporting some site metadata that layout.js is pulling in with graphql.
+//    I'm still new to graphql myself so we'll be ok ignoring for now
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Poker For Good`,
+    description: `Something really impactful so SEO will like us`,
+    author: `@johnrjacobs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
